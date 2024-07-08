@@ -12,5 +12,5 @@ curl --request POST \
 	    "name": "Nylas DevRel",
 	    "email": "devrel@nylas.com"
 	  }
-	],
-  }'
+        ]
+    }'

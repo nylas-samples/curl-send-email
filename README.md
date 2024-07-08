@@ -20,9 +20,7 @@ USER_GRANT_ID = ""
 Run the script using `bash`:
 
 ```bash
-$ NYLAS_API_KEY = ""
-$ USER_GRANT_ID = ""
-$ bash send-email.sh
+env NYLAS_API_KEY="NYLAS_API_KEY" USER_GRANT_ID="USER_GRANT_ID" bash send-email.sh
 ```
 
 When your message is successfully sent, you'll get the following output in your terminal:

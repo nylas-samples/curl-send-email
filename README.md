@@ -1,44 +1,38 @@
 # code-sample-description
-This sample repo will show you how to easily do X with Nylas.
+This sample repo will show you how to easily do send an email with Nylas.
 
 ## Setup
 
 ### System dependencies
 
-- Add System dependencies
+Need to be able run curl commands.
 
 ### Gather environment variables
 
 You'll need the following values from the Nylas Dashboard:
 
 ```text
-ACCESS_TOKEN = ""
-CLIENT_ID = ""
-CLIENT_SECRET = ""
+NYLAS_API_KEY = ""
+USER_GRANT_ID = ""
 ```
 
 Add the above values to a `.env` file.
 
 The `.env` file is added to `.gitignore`. Ensure to store these values securely.
 
-### Install dependencies
-
-[replace with install steps]
-```bash
-$ npm i
-```
-
 ## Usage
 
-The recommended way to use this sample is ...
+Run the script using `bash`:
 
-You can also clone the repository ...
+```bash
+$ bash send-email.sh
+```
 
-You'll find more detailed instructions ...
+When your message is successfully sent, you'll get the following output in your terminal:
 
-## Get support
-
-If you found a bug or want to suggest a new [feature/use case/sample], please file an issue.
+```text
+Email Send: ...)
+```
 
 ## Learn more
 

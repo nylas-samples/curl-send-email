@@ -8,9 +8,9 @@ curl --request POST \
 	"subject": "With Love, from Nylas",
 	"body": "Hi, I'm using the Nylas Email API to send a message!",
 	"to": [
-		{
-			"name": "Nylas DevRel",
-			"email": "devrel@nylas.com"
-		}
+	  {
+	    "name": "Nylas DevRel",
+	    "email": "devrel@nylas.com"
+	  }
 	],
-}'   
+  }'

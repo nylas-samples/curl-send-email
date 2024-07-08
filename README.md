@@ -15,16 +15,13 @@ You'll need the following values from the Nylas Dashboard:
 NYLAS_API_KEY = ""
 USER_GRANT_ID = ""
 ```
-
-Add the above values to a `.env` file.
-
-The `.env` file is added to `.gitignore`. Ensure to store these values securely.
-
 ## Usage
 
 Run the script using `bash`:
 
 ```bash
+$ NYLAS_API_KEY = ""
+$ USER_GRANT_ID = ""
 $ bash send-email.sh
 ```
 

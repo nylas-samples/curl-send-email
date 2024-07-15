@@ -11,6 +11,8 @@ if [ -z "$NYLAS_GRANT_ID" ]; then
 fi
 
 curl --request POST \
+  # Ensure you slect the correct region based on the Nylas App: EU or US
+  # --url "https://api.eu.nylas.com/v3/grants/$NYLAS_GRANT_ID/messages/send" \
   --url "https://api.eu.nylas.com/v3/grants/$NYLAS_GRANT_ID/messages/send" \
   --header "Authorization: Bearer $NYLAS_API_KEY" \
   --header 'Content-Type: application/json' \

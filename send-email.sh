@@ -10,7 +10,6 @@ if [ -z "$NYLAS_GRANT_ID" ]; then
     read -p "Enter your Nylas Grant ID: " NYLAS_GRANT_ID
 fi
 
-
 # Ensure you slect the correct region based on the Nylas App: EU or US
 # --url "https://api.eu.nylas.com/v3/grants/$NYLAS_GRANT_ID/messages/send" \
 curl --request POST \

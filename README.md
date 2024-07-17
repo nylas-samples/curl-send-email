@@ -12,15 +12,15 @@ Need to be able run curl commands.
 You'll need the following values from the Nylas Dashboard:
 
 ```text
-NYLAS_API_KEY = ""
-NYLAS_GRANT_ID = ""
+<NYLAS_API_KEY>
+<NYLAS_GRANT_ID>
 ```
 ## Usage
 
 Run the script using `bash`:
 
 ```bash
-env NYLAS_API_KEY=NYLAS_API_KEY NYLAS_GRANT_ID=NYLAS_GRANT_ID bash send-email.sh
+env NYLAS_API_KEY=<NYLAS_API_KEY> NYLAS_GRANT_ID=<NYLAS_GRANT_ID> bash send-email.sh
 ```
 
 When your message is successfully sent, you'll get the following output in your terminal:
